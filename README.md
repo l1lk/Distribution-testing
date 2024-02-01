@@ -2,6 +2,7 @@
 A distribution-guided approach for generating valid test cases with diverse distributions. Unlike existing testing techniques that optimize individual test cases, DistXplore optimizes test suites that represent specific distributions. For details about DistXplore, please refer to our [paper](https://dl.acm.org/doi/pdf/10.1145/3611643.3616266) accepted in FSE 2023 and our [website](https://sites.google.com/view/distxplore).
 
 ## Preformace of DistXplore
+Dissector and A2D are two SOTA adversarial defense techniques. The smaller the number, the stronger the ability to bypass defenses.
 ![performance](performance.jpg)
 
 ## Install
