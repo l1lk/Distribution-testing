@@ -1,0 +1,4 @@
+tqdm
+torchattacks
+opencv-python
+loguru
