@@ -214,7 +214,7 @@ if __name__ == '__main__':
     parser.add_argument('-gt', help='ground_truth')
     parser.add_argument('-o', help='output path')
     parser.add_argument('-pop_num', help='number of individuals', type =int, default=1000)
-    parser.add_argument('-type', help="dataset", choices=['mnist','imagenet','cifar','svhn', 'fmnist'，'own'],
+    parser.add_argument('-type', help="dataset", choices=['mnist','imagenet','cifar','svhn', 'fmnist', 'own'],
                         default='mnist')
     parser.add_argument('-model_type', help='model',
                         choices=['lenet1', 'lenet5', 'resnet20', 'mobilenet', 'vgg16', 'resnet50'], default='lenet5')
